@@ -1,0 +1,14 @@
+question_step_number,model_name,features,model_parameters,preprocessing_methods,accuracy,balance_accuracy
+4.2,multinomial_naive_bayes,TF-IDF,alpha = 0.01,None,0.588597,0.579207
+4.4,multinomial_naive_bayes,TF-IDF,alpha = 0.01,remove_diacritics,0.589026,0.579728
+4.4,multinomial_naive_bayes,TF-IDF,alpha = 0.01,normalize_letters,0.581515,0.571239
+4.4,multinomial_naive_bayes,TF-IDF,alpha = 0.01,remove_repeated_characters,0.589956,0.580611
+4.4,multinomial_naive_bayes,TF-IDF,alpha = 0.01,remove_urls,0.588669,0.579449
+4.4,multinomial_naive_bayes,TF-IDF,alpha = 0.01,remove_mentions,0.519422,0.50737
+4.4,multinomial_naive_bayes,TF-IDF,alpha = 0.01,remove_hashtags,0.58502,0.575429
+4.4,multinomial_naive_bayes,TF-IDF,alpha = 0.01,remove_emojis,0.589456,0.579979
+4.4,multinomial_naive_bayes,TF-IDF,alpha = 0.01,remove_stop_words,0.578081,0.56791
+4.4,multinomial_naive_bayes,TF-IDF,alpha = 0.01,remove_punctuation,0.588454,0.578991
+4.4,multinomial_naive_bayes,TF-IDF,alpha = 0.01,remove_diacritics,0.589026,0.579728
+4.5,multinomial_naive_bayes,TF-IDF,alpha = 0.01,"remove_diacritics,normalize_letters,remove_repeated_characters,remove_urls,remove_hashtags,remove_punctuation",0.57615,0.566237
+4.6,multinomial_naive_bayes,TF-IDF,"alpha = 0.01, tfidf__max_df=0.8, tfidf__max_features=2000, tfidf__min_df=10, tfidf__ngram_range=(1, 2)","remove_diacritics,normalize_letters,remove_repeated_characters,remove_urls,remove_hashtags,remove_punctuation",0.57615,0.531848
